@@ -1,0 +1,70 @@
+.current-weather {
+  display: flex;
+
+  .general-data,
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 400px;
+    padding: 20px;
+  }
+
+  .general-data {
+    height: 150px;
+    color: #ffffff;
+
+    background-size: cover;
+    background-position: center;
+
+    .icon-location {
+      margin-right: 10px;
+    }
+
+    .temperature {
+      font-size: 43px;
+      font-weight: bold;
+    }
+  }
+
+  .details {
+    background-color: rgba(196, 202, 211, 0.7);
+    color: #545454;
+    font-weight: bold;
+
+    .date {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+
+      font-size: 18px;
+    }
+
+    .details-list {
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+
+      .additional-details {
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+
+        .data {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+

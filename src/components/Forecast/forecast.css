@@ -1,0 +1,32 @@
+.forecast {
+  display: flex;
+  background-color: rgba(117, 119, 121, 0.8);
+  padding: 20px 10px;
+
+  .forecast-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    row-gap: 8px;
+
+    color: #fff;
+
+    .icon-image {
+      height: 40px;
+    }
+
+    .icon-clock {
+      margin-right: 5px;
+    }
+
+    .temperature {
+      margin-bottom: 5px;
+    }
+
+    .time,
+    .text {
+      font-size: 14px;
+    }
+  }
+}
